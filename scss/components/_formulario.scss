@@ -1,0 +1,47 @@
+/* UBICACION Y FORMULARIO */
+@import 'listas';
+$mb: 20px;
+
+#ubicanos {
+    display: flex;
+    display: inline-block;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    padding: 10px $mb;
+    box-sizing: border-box;
+    margin-top: $mb;
+    margin-bottom: 10px; 
+    background: nth($color , 4 );
+}
+
+.formulario{
+    color:nth($color , 3 );
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: $mb;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: $mb;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+#enviar{
+    background: nth($color , 5 );
+    color: nth($color , 3 );
+}
+
+@media (max-width:480px) {
+    form{
+        width: 100%;
+    }
+}

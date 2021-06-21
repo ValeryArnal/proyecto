@@ -1,0 +1,19 @@
+/* NAVEGACION */
+@import 'listas';
+
+
+.container-fluid {
+    @extend %navegador;
+}
+.bg-light{
+    @extend %navegador;
+}
+.btn-uno, .dropdown-menu  {
+    @extend %navegador;
+}
+
+.logo{
+    width: 200px;
+    border-radius: 30%;
+    margin-left: 2rem;
+}

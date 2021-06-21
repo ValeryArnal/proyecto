@@ -1,0 +1,27 @@
+$color:
+linear-gradient(to top, #30cfd0 0%, #330867 100%),
+rgba(0,0,0,0.37),
+white,
+rgba(0, 0, 0, 0.4),
+rgb(62, 135, 230),
+rgba(53, 52, 52, 0.788),
+#c7c7c7,
+rgb(36, 35, 35),
+#fff,
+#7ce7fa,
+#69f5ff,
+#4ca5ac,
+rgba(0, 0, 0, 0.3),
+#e8e3e3,
+linear-gradient(to top, rgba(48, 208, 208, 0.432) 0%, rgba(51, 8, 103, 0.473) 100%);
+
+$fuente1: 'Libre Baskerville', serif;
+$fuente2: 'Poppins', sans-serif;
+$fuente3: 'Merriweather', serif;
+$fuentep: 'Dancing Script', cursive;
+
+
+%navegador {
+    background-image: nth($color , 1 );
+}
+

@@ -1,0 +1,27 @@
+/* CONTENEDOR DE LOS PRODUCTOS */
+@import 'listas';
+
+@mixin productos {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    object-fit: contain;
+    cursor: pointer;
+    border: 20px solid nth($color , 14 );
+    border-radius: 24px 24px 24px 24px;
+}
+
+.contenedor {
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.producto{ 
+    @include productos;
+}

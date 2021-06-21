@@ -1,0 +1,63 @@
+/* FOOTER y REDES*/
+@import 'listas';
+$ancho:1200px;
+
+.what{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 100px;
+    right: 50px;
+}
+
+.redes{
+    width: 2rem;
+    margin-left: 20px;
+    
+}
+
+.social{
+    width: $ancho/2;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: $ancho/6;
+}
+
+.social p{
+    margin-top: 30px;
+    font-family: cursive;
+}
+
+.container-footer{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background: nth($color , 6 );
+    color:nth($color , 7 );
+}
+
+.informacion{
+    width: $ancho/2;
+    font-size: 16px;
+    display: block;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline;
+
+        img{
+            width: 36px;
+            height: 36px;
+        }
+}
+
+.fin{
+    margin-bottom: 0%;
+    text-align: center;
+    background: nth($color , 8 );
+    color: nth($color , 9 );
+    padding: 10px;
+}
+
+:target {
+    scroll-margin-top: 145px;
+}

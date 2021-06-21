@@ -1,0 +1,43 @@
+/* PARRAFOS Y H1-H2-H3 */
+@import 'listas';
+
+h1{
+    font-family: $fuente1;
+    margin-top: 120px;
+    color: white;
+    text-shadow: 6px 1px 0px nth($color , 2 );
+    
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 4rem;
+    font-family: $fuente2;
+    padding: 40px;
+    text-shadow: 6px -2px 0px nth($color , 2 );
+    letter-spacing: 5px;
+}
+
+h3{
+    font-family: $fuente3;
+}
+
+h5{
+    text-align: center;
+    margin-top: 15px;
+}
+
+ 
+.paragraph {
+    padding: 20px;
+    font-family: $fuentep;
+    font-size: 1.5rem;
+    text-align: justify ;  
+}
+
+
+.titulos{
+    margin-top: 100px;
+    text-align: center;
+}
