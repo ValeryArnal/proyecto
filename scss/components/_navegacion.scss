@@ -1,6 +1,9 @@
 /* NAVEGACION */
 @import 'listas';
 
+%navegador {
+    background-image: nth($color , 1 );
+}
 
 .container-fluid {
     @extend %navegador;

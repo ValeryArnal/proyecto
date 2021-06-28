@@ -1,8 +1,10 @@
-/* PARRAFOS Y H1-H2-H3 */
-.btn-uno, .dropdown-menu, .bg-light, .container-fluid {
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* PARRAFOS Y H1-H2-H3 */
 h1 {
   font-family: "Libre Baskerville", serif;
   margin-top: 120px;
@@ -12,10 +14,11 @@ h1 {
 
 h2 {
   text-align: center;
-  margin-bottom: 50px;
+  margin: 75px;
+  margin-bottom: 5px;
   font-size: 4rem;
   font-family: "Poppins", sans-serif;
-  padding: 40px;
+  padding: 20px;
   text-shadow: 6px -2px 0px rgba(0, 0, 0, 0.37);
   letter-spacing: 5px;
 }
@@ -26,7 +29,9 @@ h3 {
 
 h5 {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 35px;
+  color: black;
+  font-family: cursive;
 }
 
 .paragraph {
@@ -53,12 +58,7 @@ h5 {
 }
 
 /* IMAGEN PRINCIPAL */
-.container-fluid, .bg-light, .btn-uno, .dropdown-menu {
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-}
-
 .principal {
-  background-image: linear-gradient(to top, rgba(48, 208, 208, 0.432) 0%, rgba(51, 8, 103, 0.473) 100%), url("/imagenes/santiago-de-chile.jpg");
   width: 100%;
   height: 650px;
   background-repeat: no-repeat;
@@ -76,13 +76,30 @@ h5 {
   width: 100%;
 }
 
+/* DESINFECCION */
+.desinfeccion {
+  display: flex;
+}
+
+.bacterias {
+  width: 100%;
+  height: 50%;
+  padding-top: 20px;
+  margin: 40px 40px;
+  text-align: center;
+}
+.bacterias img {
+  width: 50%;
+  height: 50%;
+}
+
 /* SOBRE NOSOTROS Y SERVICIOS */
 .container-about {
   padding: 60px;
   width: 100%;
   max-width: 1000px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 5px;
 }
 
 .compras {
@@ -103,10 +120,6 @@ h5 {
 }
 
 /* BOTONES */
-.container-fluid, .bg-light, .btn-uno, .dropdown-menu {
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-}
-
 .btn-uno {
   display: flex;
   margin: auto;
@@ -136,10 +149,6 @@ h5 {
 }
 
 /* CONTENEDOR DE LOS PRODUCTOS */
-.container-fluid, .bg-light, .btn-uno, .dropdown-menu {
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-}
-
 .contenedor {
   max-width: 900px;
   margin: 30px auto;
@@ -162,15 +171,17 @@ h5 {
 }
 
 /* UBICACION Y FORMULARIO */
-.container-fluid, .bg-light, .btn-uno, .dropdown-menu {
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-}
-
 #ubicanos {
   display: flex;
   display: inline-block;
-  margin-bottom: 3rem;
-  text-align: center;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+}
+
+#contactos {
+  display: flex;
+  display: inline-block;
+  margin-left: 3rem;
 }
 
 form {
@@ -210,10 +221,6 @@ input, textarea {
   }
 }
 /* FOOTER y REDES*/
-.container-fluid, .bg-light, .btn-uno, .dropdown-menu {
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-}
-
 .what {
   position: fixed;
   width: 55px;
@@ -243,7 +250,7 @@ input, textarea {
   width: 100%;
   margin: auto;
   display: flex;
-  background: rgba(53, 52, 52, 0.788);
+  background: #313131;
   color: #c7c7c7;
 }
 
