@@ -1,0 +1,29 @@
+/* SOBRE NOSOTROS Y SERVICIOS */
+
+
+.container-about {
+    padding: 60px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.compras{
+    margin-bottom: 2rem;
+    height: 200px;
+  
+}
+
+.grid-compras{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 30px;
+    align-items: center;
+    justify-items: center;
+    text-align:center;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    padding: 30px;
+}
+

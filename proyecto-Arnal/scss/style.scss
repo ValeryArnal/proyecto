@@ -1,0 +1,16 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import 'components/h-parrafos';
+@import 'components/navegacion';
+@import 'components/imagenprincipal';
+@import 'components/desinfeccion';
+@import 'components/aboutus-pagos';
+@import 'components/botones';
+@import 'components/productos';
+@import "components/formulario";
+@import "components/footer";
