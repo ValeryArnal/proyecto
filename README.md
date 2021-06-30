@@ -1,5 +1,5 @@
 # proyecto
-<h1 align="center">Hi 👋, I'm Valery</h1>
+<h1 align="center">Hi 👋, I'm Valery Arnal</h1>
 <h3 align="center">A passionate frontend developer from Venezuela</h3>
 
 
