@@ -26,7 +26,7 @@ form{
 }
 
 .formulario{
-    color:nth($color , 3 );
+    color:nth($color , 4 );
     text-align: center;
     margin: 0;
     font-size: 30px;
@@ -41,9 +41,10 @@ input, textarea{
     font-size: 17px;
 }
 
+
 #enviar{
     background: nth($color , 5 );
-    color: nth($color , 3 );
+    color: nth($color , 8 );
 }
 
 @media (max-width:480px) {

@@ -7,6 +7,14 @@
     max-width: 1000px;
     margin: auto;
     margin-top: 5px;
+
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .compras{
