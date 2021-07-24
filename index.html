@@ -38,13 +38,11 @@
   <body>
     <header>
 
-      <br>
-      <br>
-      <br>
-      <br>
+ 
       <section class="principal">
           <h1 class="text-center">PARA LOS MÁS EXIGENTES DE LA LIMPIEZA</h1>
-          <div class="texto-ola" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-3.94,31.08 C356.65,226.47 222.90,-76.47 500.00,49.98 L500.00,150.00 L-5.64,153.45 Z" 
+          <div class="texto-ola" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M-3.94,31.08 C356.65,226.47 222.90,-76.47 500.00,49.98 L500.00,150.00 L-5.64,153.45 Z" 
             style="stroke: none; fill: #fff;"></path></svg></div>
       </section>
       
@@ -199,7 +197,7 @@
 
     <h3 id="servicios" class="text-center mt-5">QUE OFRECEMOS</h3>
     
-    <section class="compras grid-compras">
+    <section class="grid-compras">
         <div>
             <img src="imagenes/entrega-urgente.png" width= "80" height="80" style="border:0" alt="Envío inmediato">
             <h4>ENVIOS A TODO CHILE</h4>
@@ -226,23 +224,22 @@
 
      <!-- Section ubicacion -->
 
-      <div class="row">
-        <section id="ubicanos" class="col-5">
-          
+      <div class="ubicacion">
+        <section id="ubicanos">   
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.94243303561!2d-70.63188708523637!3d-33.450806304915666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c57b091008ab%3A0xb8f67589bbbdca1e!2zTXVqaWNhIDk5LCDDkXXDsW9hLCBSZWdpw7NuIE1ldHJvcG9saXRhbmE!5e0!3m2!1ses-419!2scl!4v1621211688900!5m2!1ses-419!2scl" 
-         title="Abre aplicacion en google maps"  width="650" height="450" style="border: 0px;" allowfullscreen="" loading="lazy"></iframe>
+         title="Abre aplicacion en google maps"  width="650" height="450" allowfullscreen="" loading="lazy"></iframe>
         </section>
 
       <!-- formulario -->  
 
-        <section id="contactos" class="col-6">
-          <form action="">
+        <section id="contactos">
+          <form action="enviar.php" method="POST" name="contact">
             <h3 class="formulario">CONTACTO</h3>
-            <input type="text" name="nombre" placeholder="Nombre">
-            <input type="text" name="telf" placeholder="Telefono">
-            <input type="text" name="email" placeholder="E-mail">
-            <textarea name="mensaje" placeholder="Escriba su mensaje"></textarea>
-            <input type="button" value="Enviar" id="enviar">
+            <input type="text" name="nombre" id="Nombre" placeholder="Nombre">
+            <input type="text" name="telf" id="Telefono" placeholder="Telefono">
+            <input type="text" name="email" id="email" placeholder="E-mail">
+            <textarea name="mensaje" id="mensaje" placeholder="Escriba su mensaje"></textarea>
+            <input type="button" value="Enviar">
           </form>
         </section>
       </div>  
@@ -252,7 +249,7 @@
    <!-- footer -->
     <footer class="container-footer" >
       
-      <div class="social col-5">
+      <div class="social">
         <a href="https://Instagram.com" style="text-decoration: none;" target="blank" title="Acceso directo pagina principal de instagram">
           <img class="redes" src="imagenes/instagram.svg" alt="Encuentranos en instagram">
         </a>
@@ -264,7 +261,7 @@
         </div>
       </div> 
 
-      <div class="informacion col-6">
+      <div class="informacion">
         <img src="imagenes/mapa.svg" alt="mapa de ubicación">
           <p>Mujica 99, Ñuñoa, Santiago de Chile</p>
         <img src="imagenes/telefono-inteligente.svg" alt="Numeros de atención">
